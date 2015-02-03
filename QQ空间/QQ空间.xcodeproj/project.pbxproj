@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D4BD7616B29DB7FEF3576C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81ABB95AC7C6E19D367ECB /* libPods.a */; };
+		ED3933D51A7FD9C400F11268 /* KLTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3933D41A7FD9C400F11268 /* KLTabBarButton.m */; };
+		ED3933D81A7FE37E00F11268 /* KLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3933D71A7FE37E00F11268 /* KLTableViewController.m */; };
+		ED7CEA2F1A7FB07100593119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA2E1A7FB07100593119 /* main.m */; };
+		ED7CEA321A7FB07100593119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA311A7FB07100593119 /* AppDelegate.m */; };
+		ED7CEA351A7FB07100593119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA341A7FB07100593119 /* ViewController.m */; };
+		ED7CEA381A7FB07100593119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7CEA361A7FB07100593119 /* Main.storyboard */; };
+		ED7CEA3A1A7FB07100593119 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7CEA391A7FB07100593119 /* Images.xcassets */; };
+		ED7CEA3D1A7FB07100593119 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7CEA3B1A7FB07100593119 /* LaunchScreen.xib */; };
+		ED7CEA491A7FB07100593119 /* QQ__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA481A7FB07100593119 /* QQ__Tests.m */; };
+		ED7CEA551A7FB0FC00593119 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA541A7FB0FC00593119 /* UIView+Extension.m */; };
+		ED7CEA581A7FB54100593119 /* KLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA571A7FB54100593119 /* KLConst.m */; };
+		ED7CEA5E1A7FBA1A00593119 /* KLDock.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA5D1A7FBA1A00593119 /* KLDock.m */; };
+		ED7CEA611A7FC1A300593119 /* KLBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA601A7FC1A300593119 /* KLBottomBar.m */; };
+		ED7CEA641A7FC1B200593119 /* KLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA631A7FC1B200593119 /* KLTabBar.m */; };
+		ED7CEA6A1A7FC1EA00593119 /* KLIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CEA691A7FC1EA00593119 /* KLIconButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7CEA431A7FB07100593119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7CEA211A7FB07100593119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7CEA281A7FB07100593119;
+			remoteInfo = "QQ空间";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E81ABB95AC7C6E19D367ECB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A6AF3E083B52AF525F0729 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6A94109A11DB4C5687E65196 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		ED3933D31A7FD9C400F11268 /* KLTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTabBarButton.h; sourceTree = "<group>"; };
+		ED3933D41A7FD9C400F11268 /* KLTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTabBarButton.m; sourceTree = "<group>"; };
+		ED3933D61A7FE37E00F11268 /* KLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTableViewController.h; sourceTree = "<group>"; };
+		ED3933D71A7FE37E00F11268 /* KLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTableViewController.m; sourceTree = "<group>"; };
+		ED7CEA291A7FB07100593119 /* QQ空间.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ空间.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7CEA2D1A7FB07100593119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7CEA2E1A7FB07100593119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED7CEA301A7FB07100593119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED7CEA311A7FB07100593119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED7CEA331A7FB07100593119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED7CEA341A7FB07100593119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED7CEA371A7FB07100593119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED7CEA391A7FB07100593119 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED7CEA3C1A7FB07100593119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED7CEA421A7FB07100593119 /* QQ空间Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ空间Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7CEA471A7FB07100593119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7CEA481A7FB07100593119 /* QQ__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQ__Tests.m; sourceTree = "<group>"; };
+		ED7CEA531A7FB0FC00593119 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		ED7CEA541A7FB0FC00593119 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		ED7CEA561A7FB54100593119 /* KLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLConst.h; sourceTree = "<group>"; };
+		ED7CEA571A7FB54100593119 /* KLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLConst.m; sourceTree = "<group>"; };
+		ED7CEA591A7FB77000593119 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ED7CEA5C1A7FBA1A00593119 /* KLDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDock.h; sourceTree = "<group>"; };
+		ED7CEA5D1A7FBA1A00593119 /* KLDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDock.m; sourceTree = "<group>"; };
+		ED7CEA5F1A7FC1A300593119 /* KLBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBottomBar.h; sourceTree = "<group>"; };
+		ED7CEA601A7FC1A300593119 /* KLBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLBottomBar.m; sourceTree = "<group>"; };
+		ED7CEA621A7FC1B200593119 /* KLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTabBar.h; sourceTree = "<group>"; };
+		ED7CEA631A7FC1B200593119 /* KLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTabBar.m; sourceTree = "<group>"; };
+		ED7CEA681A7FC1EA00593119 /* KLIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLIconButton.h; sourceTree = "<group>"; };
+		ED7CEA691A7FC1EA00593119 /* KLIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLIconButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7CEA261A7FB07100593119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D4BD7616B29DB7FEF3576C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7CEA3F1A7FB07100593119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78BDDAC854752FE963266F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68A6AF3E083B52AF525F0729 /* Pods.debug.xcconfig */,
+				6A94109A11DB4C5687E65196 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAF88FB667EFF43802E986D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E81ABB95AC7C6E19D367ECB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7CEA201A7FB07100593119 = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA2B1A7FB07100593119 /* QQ空间 */,
+				ED7CEA451A7FB07100593119 /* QQ空间Tests */,
+				ED7CEA2A1A7FB07100593119 /* Products */,
+				C78BDDAC854752FE963266F1 /* Pods */,
+				CAF88FB667EFF43802E986D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7CEA2A1A7FB07100593119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA291A7FB07100593119 /* QQ空间.app */,
+				ED7CEA421A7FB07100593119 /* QQ空间Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7CEA2B1A7FB07100593119 /* QQ空间 */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA5B1A7FB99C00593119 /* view */,
+				ED7CEA5A1A7FB97500593119 /* controller */,
+				ED7CEA521A7FB0AD00593119 /* other */,
+				ED7CEA2C1A7FB07100593119 /* Supporting Files */,
+			);
+			path = "QQ空间";
+			sourceTree = "<group>";
+		};
+		ED7CEA2C1A7FB07100593119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA361A7FB07100593119 /* Main.storyboard */,
+				ED7CEA391A7FB07100593119 /* Images.xcassets */,
+				ED7CEA3B1A7FB07100593119 /* LaunchScreen.xib */,
+				ED7CEA2D1A7FB07100593119 /* Info.plist */,
+				ED7CEA2E1A7FB07100593119 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED7CEA451A7FB07100593119 /* QQ空间Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA481A7FB07100593119 /* QQ__Tests.m */,
+				ED7CEA461A7FB07100593119 /* Supporting Files */,
+			);
+			path = "QQ空间Tests";
+			sourceTree = "<group>";
+		};
+		ED7CEA461A7FB07100593119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA471A7FB07100593119 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED7CEA521A7FB0AD00593119 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA531A7FB0FC00593119 /* UIView+Extension.h */,
+				ED7CEA541A7FB0FC00593119 /* UIView+Extension.m */,
+				ED7CEA301A7FB07100593119 /* AppDelegate.h */,
+				ED7CEA311A7FB07100593119 /* AppDelegate.m */,
+				ED7CEA561A7FB54100593119 /* KLConst.h */,
+				ED7CEA571A7FB54100593119 /* KLConst.m */,
+				ED7CEA591A7FB77000593119 /* PrefixHeader.pch */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		ED7CEA5A1A7FB97500593119 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA331A7FB07100593119 /* ViewController.h */,
+				ED7CEA341A7FB07100593119 /* ViewController.m */,
+				ED3933D61A7FE37E00F11268 /* KLTableViewController.h */,
+				ED3933D71A7FE37E00F11268 /* KLTableViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		ED7CEA5B1A7FB99C00593119 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				ED7CEA5C1A7FBA1A00593119 /* KLDock.h */,
+				ED7CEA5D1A7FBA1A00593119 /* KLDock.m */,
+				ED7CEA5F1A7FC1A300593119 /* KLBottomBar.h */,
+				ED7CEA601A7FC1A300593119 /* KLBottomBar.m */,
+				ED7CEA681A7FC1EA00593119 /* KLIconButton.h */,
+				ED7CEA691A7FC1EA00593119 /* KLIconButton.m */,
+				ED7CEA621A7FC1B200593119 /* KLTabBar.h */,
+				ED7CEA631A7FC1B200593119 /* KLTabBar.m */,
+				ED3933D31A7FD9C400F11268 /* KLTabBarButton.h */,
+				ED3933D41A7FD9C400F11268 /* KLTabBarButton.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7CEA281A7FB07100593119 /* QQ空间 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7CEA4C1A7FB07100593119 /* Build configuration list for PBXNativeTarget "QQ空间" */;
+			buildPhases = (
+				3ABB89AEB2798F746E6EDEA4 /* Check Pods Manifest.lock */,
+				ED7CEA251A7FB07100593119 /* Sources */,
+				ED7CEA261A7FB07100593119 /* Frameworks */,
+				ED7CEA271A7FB07100593119 /* Resources */,
+				580C4D4B1D3F5FECC441E9EE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ空间";
+			productName = "QQ空间";
+			productReference = ED7CEA291A7FB07100593119 /* QQ空间.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7CEA411A7FB07100593119 /* QQ空间Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7CEA4F1A7FB07100593119 /* Build configuration list for PBXNativeTarget "QQ空间Tests" */;
+			buildPhases = (
+				ED7CEA3E1A7FB07100593119 /* Sources */,
+				ED7CEA3F1A7FB07100593119 /* Frameworks */,
+				ED7CEA401A7FB07100593119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7CEA441A7FB07100593119 /* PBXTargetDependency */,
+			);
+			name = "QQ空间Tests";
+			productName = "QQ空间Tests";
+			productReference = ED7CEA421A7FB07100593119 /* QQ空间Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7CEA211A7FB07100593119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kouliang;
+				TargetAttributes = {
+					ED7CEA281A7FB07100593119 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					ED7CEA411A7FB07100593119 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = ED7CEA281A7FB07100593119;
+					};
+				};
+			};
+			buildConfigurationList = ED7CEA241A7FB07100593119 /* Build configuration list for PBXProject "QQ空间" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7CEA201A7FB07100593119;
+			productRefGroup = ED7CEA2A1A7FB07100593119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7CEA281A7FB07100593119 /* QQ空间 */,
+				ED7CEA411A7FB07100593119 /* QQ空间Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7CEA271A7FB07100593119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7CEA381A7FB07100593119 /* Main.storyboard in Resources */,
+				ED7CEA3D1A7FB07100593119 /* LaunchScreen.xib in Resources */,
+				ED7CEA3A1A7FB07100593119 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7CEA401A7FB07100593119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ABB89AEB2798F746E6EDEA4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		580C4D4B1D3F5FECC441E9EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7CEA251A7FB07100593119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7CEA641A7FC1B200593119 /* KLTabBar.m in Sources */,
+				ED7CEA351A7FB07100593119 /* ViewController.m in Sources */,
+				ED3933D51A7FD9C400F11268 /* KLTabBarButton.m in Sources */,
+				ED7CEA581A7FB54100593119 /* KLConst.m in Sources */,
+				ED7CEA321A7FB07100593119 /* AppDelegate.m in Sources */,
+				ED3933D81A7FE37E00F11268 /* KLTableViewController.m in Sources */,
+				ED7CEA6A1A7FC1EA00593119 /* KLIconButton.m in Sources */,
+				ED7CEA611A7FC1A300593119 /* KLBottomBar.m in Sources */,
+				ED7CEA5E1A7FBA1A00593119 /* KLDock.m in Sources */,
+				ED7CEA551A7FB0FC00593119 /* UIView+Extension.m in Sources */,
+				ED7CEA2F1A7FB07100593119 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7CEA3E1A7FB07100593119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7CEA491A7FB07100593119 /* QQ__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7CEA441A7FB07100593119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7CEA281A7FB07100593119 /* QQ空间 */;
+			targetProxy = ED7CEA431A7FB07100593119 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7CEA361A7FB07100593119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7CEA371A7FB07100593119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7CEA3B1A7FB07100593119 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7CEA3C1A7FB07100593119 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7CEA4A1A7FB07100593119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ED7CEA4B1A7FB07100593119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7CEA4D1A7FB07100593119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A6AF3E083B52AF525F0729 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "QQ空间/PrefixHeader.pch";
+				INFOPLIST_FILE = "QQ空间/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED7CEA4E1A7FB07100593119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A94109A11DB4C5687E65196 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "QQ空间/PrefixHeader.pch";
+				INFOPLIST_FILE = "QQ空间/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED7CEA501A7FB07100593119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ空间Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ空间.app/QQ空间";
+			};
+			name = Debug;
+		};
+		ED7CEA511A7FB07100593119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ空间Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ空间.app/QQ空间";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7CEA241A7FB07100593119 /* Build configuration list for PBXProject "QQ空间" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7CEA4A1A7FB07100593119 /* Debug */,
+				ED7CEA4B1A7FB07100593119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7CEA4C1A7FB07100593119 /* Build configuration list for PBXNativeTarget "QQ空间" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7CEA4D1A7FB07100593119 /* Debug */,
+				ED7CEA4E1A7FB07100593119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7CEA4F1A7FB07100593119 /* Build configuration list for PBXNativeTarget "QQ空间Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7CEA501A7FB07100593119 /* Debug */,
+				ED7CEA511A7FB07100593119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7CEA211A7FB07100593119 /* Project object */;
+}

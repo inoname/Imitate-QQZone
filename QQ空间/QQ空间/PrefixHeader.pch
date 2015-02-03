@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  QQ空间
+//
+//  Created by kouliang on 15/2/2.
+//  Copyright (c) 2015年 kouliang. All rights reserved.
+//
+
+#ifndef QQ___PrefixHeader_pch
+#define QQ___PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "KLConst.h"
+#import "UIView+Extension.h"
+
+#define KLRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define KLARGBColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define KLRandomColor KLRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+#define KLScreenIsPortrait ([UIScreen mainScreen].bounds.size.height>[UIScreen mainScreen].bounds.size.width)
+
+#endif
